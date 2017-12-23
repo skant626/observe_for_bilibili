@@ -1,18 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/title_back"
+        android:id="@+id/title2"
         android:layout_width="64dp"
         android:layout_height="65dp"
-        android:layout_gravity="center"
+        android:layout_below="@id/title0"
+        android:layout_toLeftOf="@id/title0"
         android:layout_margin="5dp"
         android:background="@drawable/selector"
         android:text="Back"
         android:textColor="#fff" />
 
+    <Button
+        android:id="@+id/title3"
+        android:layout_width="64dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/title0"
+        android:layout_toRightOf="@id/title0"
+        android:layout_margin="5dp"
+        android:background="@drawable/selector"
+        android:text="Back"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/title1"
+        android:layout_width="64dp"
+        android:layout_height="65dp"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/title0"
+        android:layout_margin="5dp"
+        android:background="@drawable/selector"
+        android:text="Back"
+        android:textColor="#fff" />
+    <Button
+        android:id="@+id/title0"
+        android:layout_width="64dp"
+        android:layout_height="65dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/back2"
+        android:textColor="#fff" />
 
 
-</LinearLayout>
+</RelativeLayout>

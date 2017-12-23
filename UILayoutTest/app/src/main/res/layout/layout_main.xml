@@ -6,21 +6,6 @@
     android:background="#e6e6e6"
     android:orientation="vertical"
     android:gravity="center_vertical">
-    <include layout="@layout/title"/>
 
-    <ImageView
-        android:id="@+id/image_view"
-        android:layout_width="wrap_content"
-        android:layout_height="154dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="17dp"
-        android:src="@drawable/zhaoanqi" />
-
-
-
-
-
-
-
+    <include layout="@layout/title" />
 </RelativeLayout>

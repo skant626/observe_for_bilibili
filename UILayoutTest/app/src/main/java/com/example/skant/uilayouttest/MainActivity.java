@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
-    private ImageView imageView;
+    //private ImageView imageView;
    // private Drawable image;
     private Button imageButton;
     @Override
@@ -22,10 +22,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (actionbar != null){
             actionbar.hide();
         }
-        imageView = (ImageView) findViewById(R.id.image_view);
+        //imageView = (ImageView) findViewById(R.id.image_view);
        // int resID = getResources().getIdentifier("back1.png", "drawable", "com.example.skant.uilayouttest");
         //image = getResources().getDrawable(resID);
-        imageButton = (Button) findViewById(R.id.title_back);
+        imageButton = (Button) findViewById(R.id.title1);
         imageButton.setOnClickListener(this);
 
     }
@@ -34,16 +34,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v){
         switch (v.getId()){
-            case R.id.title_back:
+            case R.id.title1:
                 //String inputText = editText.getText().toString();
                 //Toast.makeText(MainActivity.this,inputText,Toast.LENGTH_SHORT).show();
                 if(flag) {
-                    imageView.setImageResource(R.drawable.book);
+                    //imageView.setImageResource(R.drawable.book);
                     //imageButton.setBackground(image);
                     flag = false;
                 }
                 else {
-                    imageView.setImageResource(R.drawable.zhaoanqi);
+                    //imageView.setImageResource(R.drawable.zhaoanqi);
                     flag = true;
                 }
                 break;
